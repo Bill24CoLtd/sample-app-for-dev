@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Runner' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'Alamofire', '5.4'
+  pod 'CryptoSwift', '1.4.1'
+  pod 'Socket.IO-Client-Swift'
+#  pod 'IronSourceSDK','7.2.3.0'
+
+  # Pods for Runner
+
+end
