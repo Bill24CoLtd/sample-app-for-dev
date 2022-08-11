@@ -15,9 +15,7 @@ import java.lang.Exception
 class MainActivity: FlutterFragmentActivity() {
     private val CHANNEL = "paymentSdk"
     private lateinit var channel: MethodChannel
-    val clientId:String = "weYubIQRp7KoaEo4oy3kHEc8J7QVQasSrMPtvfOFamQ="
-    // environment must be either "uat" or "prod" only
-    val environment:String = "testing"
+
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
